@@ -10,9 +10,11 @@ const Home = () => {
                 <div className={styles.imageDiv}>
                     <img src={home} height='100%' width='100%' alt="" />
                 </div>
-                <h2>
-                    Hello
-                </h2>
+                <div>
+                    <p style={{ marginTop: '10px' }}>
+                        Access Your Account
+                    </p>
+                </div>
                 <Link to='/login' className={styles.loginBtn} >
                     LOGIN
                 </Link >
